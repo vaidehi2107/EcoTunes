@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoTunes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>EcoTunes: Feel the Rhythm of Your Environment</h1>
+
+  <!-- City Input Section -->
+  <div id="location-section">
+    <label for="city">Enter your city name:</label>
+    <input type="text" id="city" placeholder="City name">
+    <button onclick="fetchLocationAndAQI()">Get Environmental Data</button>
+  </div>
+
+  <!-- Display AQI and Visual Feedback -->
+  <div id="data-display">
+    <p id="aqi-value">AQI: Loading...</p>
+    <div id="visuals"></div>
+    <button onclick="generateSound()">Play Sound Based on AQI</button>
+  </div>
+
+  <!-- Solutions Section -->
+  <div id="solutions">
+    <h2>Suggested Actions</h2>
+    <p id="solution-content"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

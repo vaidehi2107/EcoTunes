@@ -1,0 +1,89 @@
+/* Basic Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    background-color: #e0f7fa;
+    color: #333;
+  }
+  
+  h1 {
+    color: #00796b;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  #location-section, #data-display, #solutions {
+    margin: 20px 0;
+    padding: 10px;
+  }
+  
+  input, button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #00796b;
+  }
+  
+  button {
+    cursor: pointer;
+    background-color: #00796b;
+    color: white;
+  }
+  
+  #aqi-value {
+    font-size: 24px;
+    margin: 20px;
+  }
+  
+  #visuals {
+    width: 200px;
+    height: 20px;
+    background-color: #c8e6c9;
+    margin: 10px auto;
+    transition: background-color 0.5s;
+    border-radius: 5px;
+  }
+
+  /* Suggested Actions Box */
+#solutions {
+  margin-top: 20px;
+  padding: 15px;
+  max-width: 500px;
+  margin: 0 auto;
+  border-radius: 8px;
+  background-color: #f9f9f9;  /* Light background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: 1px solid #e0e0e0;  /* Light border */
+}
+
+#solutions h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#solution-content p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+#solution-content ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+#solution-content ul li {
+  font-size: 15px;
+  color: #444;
+  line-height: 1.6;
+  margin: 5px 0;
+}
